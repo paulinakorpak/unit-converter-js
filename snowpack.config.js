@@ -8,7 +8,7 @@ module.exports = {
     src: { url: '/dist' },
   },
   plugins: [
-    /* ... */
+    '@snowpack/plugin-sass',
   ],
   packageOptions: {
     /* ... */
