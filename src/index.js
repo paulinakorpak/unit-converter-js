@@ -1,4 +1,7 @@
 import { Form } from './Form';
+import { Converter } from './Converter';
 
 const element = document.querySelector('.app');
-Form(element).render();
+const converter = Converter();
+
+Form(element, converter).render();
