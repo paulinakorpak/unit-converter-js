@@ -1,0 +1,23 @@
+.container-sm {
+  width: 100vw;
+  height: 100vh;
+}
+.container-sm .wrapper {
+  width: 100%;
+}
+.container-sm .wrapper h1 {
+  margin-bottom: 3rem;
+}
+.container-sm .wrapper .unit-category {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.container-sm .wrapper .row {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 50%;
+  }
+}

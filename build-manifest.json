@@ -1,0 +1,82 @@
+{
+  "inputs": {
+    "styles/main.css": {
+      "bytes": 189827,
+      "imports": []
+    },
+    "dist/Form/template.js": {
+      "bytes": 1901,
+      "imports": []
+    },
+    "dist/Form/index.js": {
+      "bytes": 1377,
+      "imports": [
+        {
+          "path": "dist/Form/template.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/Converter/convertions.js": {
+      "bytes": 2765,
+      "imports": []
+    },
+    "dist/Converter/index.js": {
+      "bytes": 461,
+      "imports": [
+        {
+          "path": "dist/Converter/convertions.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/index.js": {
+      "bytes": 206,
+      "imports": [
+        {
+          "path": "dist/Form/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/Converter/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/styles/main.css": {
+      "imports": [],
+      "entryPoint": "styles/main.css",
+      "inputs": {
+        "styles/main.css": {
+          "bytesInOutput": 150470
+        }
+      },
+      "bytes": 150488
+    },
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "dist/index.js",
+      "inputs": {
+        "dist/Form/template.js": {
+          "bytesInOutput": 1492
+        },
+        "dist/Form/index.js": {
+          "bytesInOutput": 656
+        },
+        "dist/Converter/convertions.js": {
+          "bytesInOutput": 1417
+        },
+        "dist/Converter/index.js": {
+          "bytesInOutput": 159
+        },
+        "dist/index.js": {
+          "bytesInOutput": 59
+        }
+      },
+      "bytes": 3784
+    }
+  }
+}
