@@ -6,7 +6,7 @@ export const Converter = () => {
 
   const calculate = (category, unitFrom, unitTo, value) => {
     const result = conversions[category][unitFrom][unitTo](value);
-    return Math.round(result * 10000) / 10000;
+    return Math.round(result * 10000000000) / 10000000000;
   };
 
   return { getCategories, getUnitsByCategory, calculate };
