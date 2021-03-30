@@ -9,7 +9,7 @@
       "imports": []
     },
     "dist/Form/index.js": {
-      "bytes": 1377,
+      "bytes": 1452,
       "imports": [
         {
           "path": "dist/Form/template.js",
@@ -18,11 +18,11 @@
       ]
     },
     "dist/Converter/convertions.js": {
-      "bytes": 2765,
+      "bytes": 3717,
       "imports": []
     },
     "dist/Converter/index.js": {
-      "bytes": 461,
+      "bytes": 473,
       "imports": [
         {
           "path": "dist/Converter/convertions.js",
@@ -64,19 +64,19 @@
           "bytesInOutput": 1492
         },
         "dist/Form/index.js": {
-          "bytesInOutput": 656
+          "bytesInOutput": 696
         },
         "dist/Converter/convertions.js": {
-          "bytesInOutput": 1417
+          "bytesInOutput": 1935
         },
         "dist/Converter/index.js": {
-          "bytesInOutput": 159
+          "bytesInOutput": 161
         },
         "dist/index.js": {
           "bytesInOutput": 59
         }
       },
-      "bytes": 3784
+      "bytes": 4344
     }
   }
 }
